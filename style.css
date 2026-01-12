@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+  color: #000000;
+  background-color: #f5f5f7;
+}
+a {
+  text-decoration: none;
+  color: #000000;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+/* Header starts here */
+.header-container {
+  height: 72px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+.main-nav a {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+/* Header ends here */
+
+/* Hero starts here */
+.hero-block {
+  height: 400px;
+  color: #ffffff;
+  text-align: center;
+  background-image: url(assets/images/Rectangle.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 45px;
+}
+.hero-block h1 {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 48px;
+  margin-bottom: 37px;
+}
+.hero-block h2 {
+  font-weight: 500;
+  font-size: 20px;
+}
+/* Hero edns here */
+
+/*main content starts here*/
+
+.main-content {
+  margin-bottom: 151px;
+}
+h3 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-bottom: 49px;
+}
+.articles-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 29px;
+}
+article {
+  max-width: 360px;
+}
+.card-color {
+  background-color: #c7b8ff;
+  width: 100%;
+  height: 240px;
+}
+.card-content {
+  padding: 15px 19px;
+  background-color: #ffffff;
+}
+
+.card-info {
+  display: flex;
+  gap: 28px;
+  margin-bottom: 15px;
+}
+.card-info span {
+  font-weight: 400;
+  font-size: 13px;
+}
+article h4 {
+  font-weight: 600;
+  font-size: 22px;
+}
+.card-content p {
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 6px;
+}
+/*different colors of the cards ?? */
+#pink {
+  background-color: #ffb8d8;
+}
+#blue {
+  background-color: #b8e0ff;
+}
+#green {
+  background-color: #d4ffb8;
+}
+#yellow {
+  background-color: #ffe4b8;
+}
+#orange {
+  background-color: #ffd4b8;
+}
+
+/*main content ends here*/
+
+/*footer*/
+footer {
+  background-color: #252424;
+  color: #ffffff;
+}
+.top-f {
+  display: grid;
+  grid-template-columns: 296px 1fr;
+  gap: 110px;
+  padding: 57px 19px;
+}
+h5 {
+  font-weight: 600;
+  font-size: 20px;
+}
+.footer-grid-col p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #a1a1a6;
+}
+.contact {
+  margin-top: 34px;
+ 
+}
+.contact li{
+  color: #a1a1a6;
+}
+.footer-nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.footer-nav a {
+  color: #a1a1a6;
+}
+.categories-nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.categories-nav a {
+  color: #a1a1a6;
+}
+
+.footer-nav li,
+.categories-nav li {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.bottom-f {
+  background-color: #020202;
+  width: 100%;
+  padding: 15px 0;
+}
+.bottom-f p {
+  text-align: center;
+  color: #86868b;
+  font-weight: 600;
+  font-size: 13px;
+}
